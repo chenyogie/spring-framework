@@ -17,6 +17,7 @@ repositories {
 
 /**
  * Produce Javadoc for all Spring Framework modules in "build/docs/javadoc"
+ * 任务：build/docs/javadoc为每个spring框架模块生成java文档
  */
 task api(type: Javadoc) {
 	group = "Documentation"
